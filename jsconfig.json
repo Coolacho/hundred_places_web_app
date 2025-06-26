@@ -3,7 +3,8 @@
     "paths": {
       "@/*": ["./src/*"]
     },
-    "lib": ["DOM", "ES2024", "ES2024.Promise"]
+    "lib": ["DOM", "ES2024", "ES2024.Promise"],
+    "target": "ES2024"
   },
   "exclude": ["node_modules", "dist"]
 }
